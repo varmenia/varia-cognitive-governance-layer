@@ -9,21 +9,16 @@
   <div id="app">Caricamento...</div>
   <script>
     window.$docsify = {
-      name: 'Il Mio Framework',
-      repo: '', // https://github.com/varmenia/varia-cognitive-governance-layer.git
-      loadSidebar: true, // Questo attiva l'indice laterale
-      subMaxLevel: 2
+      name: 'Varia Framework',
+      repo: 'https://github.com/varmenia/varia-cognitive-governance-layer',
+      loadSidebar: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      subMaxLevel: 2,
+      auto2top: true
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
 </html>
-window.$docsify = {
-  name: 'Il Mio Framework',
-  repo: '', 
-  loadSidebar: true, //
-  alias: {
-    '/.*/_sidebar.md': '/_sidebar.md' 
-  },
-  subMaxLevel: 2
-}
