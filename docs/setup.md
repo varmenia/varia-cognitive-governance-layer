@@ -1,49 +1,33 @@
-# Documentazione Tecnica: Cognitive Governance Layer
+# 📖 Documentazione Tecnica
 
-Questa sezione approfondisce l'architettura logica e i protocolli che governano l'interazione tra il motore di ragionamento e l'output finale.
-
----
-
-## 🏗️ Architettura del Sistema
-Il sistema opera come uno strato di protezione deterministico. A differenza dei prompt standard, questo layer impone una separazione netta:
-
-1. **Input Ingestion**: Filtro iniziale dei dati.
-2. **Hidden Reasoning (Space)**: Elaborazione protetta in un ambiente isolato.
-3. **Governance Audit**: Controllo di qualità pre-emissione.
-4. **Final Emission**: Output ripulito da processi intermedi.
+Questa sezione approfondisce i tre layer che compongono il **Cognitive Governance Layer (CGL)**.
 
 ---
 
-## 🛠️ Protocolli di Controllo
+## 🛡️ IBC (Interpretation Bias Control)
+Il modulo IBC è il guardiano dell'accuratezza. Il suo compito è impedire che l'IA "immagini" dettagli non presenti nell'input.
 
-### Interpretation Bias Control (IBC)
-Il protocollo IBC è progettato per minimizzare la dispersione semantica.
-* **Obiettivo**: Impedire all'agente di "indovinare" informazioni mancanti.
-* **Funzionamento**: Se un parametro di input è ambiguo, il sistema solleva un'eccezione logica e richiede una specifica, invece di procedere con un'inferenza probabilistica.
-
-### Error Anticipation Layer (EAL)
-L'EAL agisce come un supervisore interno che esegue un audit sulla bozza prodotta nello spazio di pensiero.
-* **Verifica Incoerenze**: Controlla che la conclusione sia supportata dalle premesse.
-* **Prevenzione Allucinazioni**: Verifica che ogni dato nell'output sia presente nell'input originale o nei parametri di configurazione.
+### Livelli di Strictness
+* **Alto**: L'IA rifiuta qualsiasi inferenza. Se un dato manca, deve dichiararlo.
+* **Medio**: L'IA può fare deduzioni logiche basilari, ma deve segnalarle.
+* **Basso**: L'IA agisce in modalità creativa (non raccomandato per uso enterprise).
 
 ---
 
-## ⚙️ Parametri di Configurazione (Setup)
-Per implementare correttamente il layer, integra questi parametri nel tuo file di configurazione:
+## 🧩 CBL (Cognitive Load Balancing)
+Suddividere un compito complesso in step atomici riduce drasticamente il degrado delle performance dei modelli.
 
-| Variabile | Valore Consigliato | Descrizione |
-| :--- | :--- | :--- |
-| `IBC_Strictness` | `High` | Massima aderenza ai dati forniti. |
-| `EAL_Strictness` | `Medium` | Bilanciamento tra velocità di risposta e rigore. |
-| `Thought_Visibility` | `Hidden` | Mantiene il ragionamento isolato dall'utente. |
-
----
-
-## 🚦 Stati di Esecuzione
-Il framework attraversa tre stati principali durante ogni richiesta:
-1. **PENDING**: Analisi dell'input in corso.
-2. **PROCESSING**: Ragionamento interno (Space) attivo.
-3. **VALIDATED**: Controllo qualità superato, pronto per l'invio.
+### Linee Guida per la Decomposizione
+1. **Analisi**: Identificazione delle entità nell'input.
+2. **Elaborazione**: Applicazione delle regole di business.
+3. **Validazione**: Controllo interno dei risultati.
+4. **Sintesi**: Formattazione dell'output finale.
 
 ---
-[Torna alla Home](README.md) • [Vedi gli Esempi](esempi.md)
+
+## 🚦 EAL (Error Anticipation Layer)
+L'ultimo filtro prima dell'utente finale. Funziona come una checklist interna che l'IA deve validare.
+
+* **Checkpoint logici**: Verifica che la conclusione sia supportata dalle premesse.
+* **Vincoli di formato**: Assicura che l'output rispetti lo schema richiesto (JSON, Tabella, Report).
+* **Criteri di blocco**: Se l'EAL rileva un'allucinazione critica, il framework blocca la generazione.
