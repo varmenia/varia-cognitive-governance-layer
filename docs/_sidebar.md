@@ -1,3 +1,6 @@
-* [🏠 Home](README.md)
-* [📖 Documentazione](setup.md)
-* [💡 Esempi](esempi.md)
+<!-- docs/_sidebar.md -->
+
+* [🏠 Home](/)
+* [📘 Documentazione](/documentazione)
+* [💡 Esempi](/esempi)
+* [💻 GitHub](https://github.com/varmenia/varia-cognitive-governance-layer)
