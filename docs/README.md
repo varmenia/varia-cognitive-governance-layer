@@ -44,7 +44,7 @@ Un "Quality Gate" pre-output. Introduce 3-5 checkpoint per intercettare incoeren
 ## 📞 Contatti & Social
 
 * **💻 GitHub**: [varmenia/varia-cognitive-governance-layer](https://github.com/varmenia/varia-cognitive-governance-layer)
-* **👔 LinkedIn**: [Il tuo nome e cognome](http://www.linkedin.com/in/viviana-armenia)
+* **👔 LinkedIn**: [Viviana Armenia](http://www.linkedin.com/in/viviana-armenia)
 
 ## 📂 Struttura Repository
 ```text
