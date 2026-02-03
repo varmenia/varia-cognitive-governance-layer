@@ -39,6 +39,12 @@ Un "Quality Gate" pre-output. Introduce 3-5 checkpoint per intercettare incoeren
 > **Nota su `Thought_Process_Visibility`**: In produzione, mantenere **Nascosto** per garantire output puliti e professionali. Usare **Visibile** solo per audit e debugging.
 
 ---
+---
+
+## 📞 Contatti & Social
+
+* **💻 GitHub**: [varmenia/varia-cognitive-governance-layer](https://github.com/varmenia/varia-cognitive-governance-layer)
+* **👔 LinkedIn**: [Il tuo nome e cognome](www.linkedin.com/in/viviana-armenia)
 
 ## 📂 Struttura Repository
 ```text
