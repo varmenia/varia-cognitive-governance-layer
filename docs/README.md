@@ -51,4 +51,4 @@ Il processo segue un percorso sequenziale rigoroso per ottimizzare il carico cog
 In contesti dove la precisione è prioritaria rispetto alla creatività, questo framework offre la stabilità necessaria per applicazioni in cui la logica deve essere verificabile e l'errore deve essere mitigato alla radice.
 
 ---
-[Documentazione](#) • [Esempi](#) • [GitHub Repository](https://github.com/tuo-username/progetto)
+[Documentazione](#) • [Esempi](#) • [GitHub Repository](https://github.com/varmenia/varia-cognitive-governance-layer.git)
