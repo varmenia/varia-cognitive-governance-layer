@@ -1,0 +1,65 @@
+# Core — CGL Framework
+
+La cartella `core` contiene i tre moduli strutturali del CGL (Cognitive Governance Layer).  
+Qui risiede l’architettura concettuale del framework: i principi, le regole e le responsabilità che definiscono come un modello deve pensare, governare il proprio ragionamento ed eseguire in modo controllato.
+
+## Struttura dei moduli
+
+- **cbl/** — Cognitive Breakdown Layer  
+  Scomposizione cognitiva, obiettivi, vincoli, criteri di qualità.
+
+- **cgl/** — Cognitive Governance Layer  
+  Regole di governance, controlli, coerenza interna, limiti inferenziali.
+
+- **eal/** — Execution Alignment Layer  
+  Allineamento operativo, istruzioni finali, parametri di esecuzione.
+
+## Obiettivo della cartella
+
+Fornire una base stabile e riutilizzabile per:
+
+- comprendere il funzionamento dei tre layer  
+- mantenere coerenza nella progettazione dei prompt  
+- estendere il framework senza alterarne la struttura  
+- integrare i layer in template, agenti o pipeline
+
+## Come utilizzarla
+
+1. Esamina i tre moduli per comprenderne ruoli e responsabilità.  
+2. Usa questi file come riferimento quando costruisci template o documentazione.  
+3. Mantieni questa cartella stabile: rappresenta il “motore” del CGL.
+
+
+
+English
+
+# Core — CGL Framework
+
+The `core` folder contains the three structural modules of the CGL (Cognitive Governance Layer).  
+This is the conceptual architecture of the framework: the principles, rules, and responsibilities that define how a model should think, govern its reasoning, and execute tasks in a controlled way.
+
+## Module structure
+
+- **cbl/** — Cognitive Breakdown Layer  
+  Cognitive decomposition, objectives, constraints, quality criteria.
+
+- **cgl/** — Cognitive Governance Layer  
+  Governance rules, controls, internal coherence, inference boundaries.
+
+- **eal/** — Execution Alignment Layer  
+  Operational alignment, final instructions, execution parameters.
+
+## Purpose of this folder
+
+Provide a stable and reusable foundation to:
+
+- understand how the three layers work  
+- maintain consistency when designing prompts  
+- extend the framework without breaking its structure  
+- integrate the layers into templates, agents, or pipelines
+
+## How to use it
+
+1. Review each module to understand its role and responsibilities.  
+2. Use these files as reference when building templates or documentation.  
+3. Keep this folder stable: it represents the “engine” of the CGL.
