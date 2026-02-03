@@ -5,5 +5,5 @@
 ---
 
 * [💻 GitHub Repository](https://github.com/varmenia/varia-cognitive-governance-layer)
-* [👔 LinkedIn Profile](http://www.linkedin.com/in/viviana-armenia)
+* [👔 LinkedIn Profile](https://www.linkedin.com/in/viviana-armenia)
 
