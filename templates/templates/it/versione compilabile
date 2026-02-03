@@ -1,0 +1,59 @@
+# CGL Prompt Template – Versione Compilabile
+
+## 1. CBL — Strutturazione del ragionamento
+Obiettivo principale:
+- 
+
+Sotto‑obiettivi:
+- 
+
+Vincoli:
+- 
+
+Dati necessari:
+- 
+
+Output atteso:
+- 
+
+Criteri di qualità:
+- 
+
+---
+
+## 2. IBC — Controllo delle inferenze
+Assunzioni autorizzate:
+- 
+
+Assunzioni vietate:
+- 
+
+Informazioni da non inventare:
+- 
+
+---
+
+## 3. KFG — Struttura dell’output
+Formato richiesto:
+
+---
+
+## 4. QV — Verifica della qualità
+Checklist:
+- Completezza:
+- Aderenza ai vincoli:
+- Assenza di allucinazioni:
+- Coerenza interna:
+- Aderenza al formato:
+
+---
+
+## 5. RAG (opzionale)
+Contesto esterno o documenti:
+- 
+
+---
+
+## 6. Istruzione finale
+Istruzione operativa al modello:
+- 
