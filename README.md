@@ -173,3 +173,167 @@ Criteri di blocco:
 │     ├── audit-checklist.md
 │
 └── README.md
+
+
+
+
+# Cognitive Governance Layer — VarIA Framework
+*A modular open‑source framework for designing reliable, controllable, and enterprise‑grade prompts.*
+
+## Purpose
+The Cognitive Governance Layer (CGL) is a framework designed to increase the reliability of language models through three core principles:
+
+- **Cognitive Load Balancing (CBL):** structured, sequential reasoning  
+- **Interpretation Bias Control (IBC):** reduction of unauthorized inferences  
+- **Error Anticipation Layer (EAL):** pre‑output quality control  
+
+The framework is intended for:
+
+- AI designers  
+- Prompt engineers  
+- Workflow architects  
+- Enterprise teams  
+- Automation systems and AI agents  
+
+---
+
+# Framework Architecture
+
+## 1. Cognitive Load Balancing (CBL)
+Structures the task into distinct phases to prevent:
+
+- mixed reasoning steps  
+- chaotic thought processes  
+- premature synthesis  
+
+**Guidelines:**
+
+- 3–7 phases  
+- each phase represents a single atomic objective  
+- define what to do and what *not* to do  
+- produce verifiable intermediate outputs  
+
+---
+
+## 2. Interpretation Bias Control (IBC)
+Controls input interpretation to reduce:
+
+- unsolicited inferences  
+- implicit assumptions  
+- automatic completions  
+
+**Guidelines:**
+
+- specify the source of truth  
+- set Strictness: High, Medium, or Low  
+- list forbidden assumptions  
+- define fallback behavior for ambiguity  
+
+---
+
+## 3. Error Anticipation Layer (EAL)
+Adds a pre‑output quality gate that detects:
+
+- inconsistencies  
+- critical omissions  
+- logical risks  
+- unauthorized assumptions  
+
+**Guidelines:**
+
+- define 3–5 checkpoints  
+- decide whether to block output on critical errors  
+- define the reporting format  
+
+---
+
+# Configuration Parameters
+
+- **IBC_Strictness:** High | Medium | Low  
+- **EAL_Strictness:** High | Medium | Low  
+- **Thought_Process_Visibility:** Hidden | Visible  
+- **Phase_Limit:** 3 | 5 | 7  
+
+### Note on `Thought_Process_Visibility`
+This parameter controls whether the model should reveal or hide its internal reasoning (chain‑of‑thought).
+
+Default in CGL: **Hidden**, because:
+
+- internal reasoning may contain unverified steps  
+- it increases cognitive noise  
+- it may introduce bias or unauthorized inferences  
+- it is not intended for end‑users in professional contexts  
+
+Use **Visible** only during development, auditing, or debugging to inspect:
+
+- task decomposition (CBL)  
+- controlled interpretations (IBC)  
+- quality checkpoints (EAL)  
+
+In production, keep it **Hidden** to ensure clean, controlled outputs.
+
+---
+
+# Example — CGL Prompt
+
+## Input Declaration
+The user provides:  
+- a textual description of a business process  
+
+The user does *not* provide:  
+- quantitative data  
+- performance metrics  
+- technical diagrams  
+
+Constraints:  
+- professional tone  
+- concise output  
+
+---
+
+## Task Decomposition (CBL)
+
+1. Analyze the described process  
+2. Identify inefficiencies or critical points  
+3. Propose operational improvements  
+4. Apply IBC to avoid unauthorized assumptions  
+5. Apply EAL to verify coherence and completeness  
+6. Deliver a structured synthesis  
+
+---
+
+## Interpretation Bias Control (IBC)
+
+- **Strictness:** High  
+- **Forbidden assumptions:** invented data, numbers, org charts not provided  
+- **Authorized sources:** user text only  
+- **Ambiguity handling:** ask for clarification or offer alternatives  
+
+---
+
+## Error Anticipation Layer (EAL)
+
+**Checklist:**  
+- Does the output respect the constraints?  
+- Are there unauthorized inferences?  
+- Were the CBL phases followed?  
+- Is the synthesis consistent with the input?  
+
+**Blocking criteria:**  
+- invented data  
+- violation of forbidden assumptions  
+
+---
+
+## Output Format
+
+- Title  
+- Process analysis  
+- Identified issues  
+- Improvement proposals  
+- Operational notes  
+
+---
+
+# Repository Structure
+
