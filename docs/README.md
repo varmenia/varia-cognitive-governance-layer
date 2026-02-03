@@ -8,7 +8,7 @@
 
 **Framework strutturato per prompt AI affidabili e controllabili**
 
-📖 [**Documentazione Completa**](TUO_LINK_NOTION) • 💻 [Templates](./templates) • 🤝 [Contributing](./CONTRIBUTING.md)
+📖 [**Documentazione Completa**](https://www.notion.so/Cognitive-Governance-Laye-2fca0bc834718028a418da9c308547bc?source=copy_link) • 💻 [Templates](./templates) • 🤝 [Contributing](./CONTRIBUTING.md)
 
 </div>
 
@@ -50,7 +50,7 @@ Controlla interpretazione input, zero inferenze non autorizzate
 ### 3️⃣ EAL - Error Anticipation Layer
 Quality gates automatici pre-output
 
-📖 **[Documentazione Dettagliata su Notion](TUO_LINK_NOTION)**
+📖 **[Documentazione Dettagliata su Notion](https://www.notion.so/Cognitive-Governance-Laye-2fca0bc834718028a418da9c308547bc?source=copy_link)**
 
 ---
 
