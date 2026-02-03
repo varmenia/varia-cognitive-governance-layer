@@ -1,26 +1,10 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <title>VarIA Framework</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-</head>
-<body>
-  <div id="app"></div>
-  <script>
+<script>
     window.$docsify = {
       name: 'VarIA Framework',
       repo: 'https://github.com/varmenia/varia-cognitive-governance-layer',
-      loadSidebar: true,
+      loadSidebar: true, // Questo basta ad attivare la sidebar
       subMaxLevel: 3,
-      auto2top: true,
-      alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
-      }
+      auto2top: true
+      // HO TOLTO L'ALIAS PER EVITARE ERRORI DI PERCORSO
     }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-</body>
-</html>
