@@ -338,5 +338,7 @@ Constraints:
 # Repository Structure
 
 ---
+---
 ## 👤 Author
 **Viviana Armenia** - [LinkedIn Profile](https://www.linkedin.com/in/viviana-armenia)
+
