@@ -1,0 +1,63 @@
+# CGL Prompt Template – Fillable Version
+
+## 1. CBL — Cognitive Breakdown Layer
+Main objective:
+- 
+
+Sub‑objectives:
+- 
+
+Constraints:
+- 
+
+Required data:
+- 
+
+Expected output:
+- 
+
+Quality criteria:
+- 
+
+---
+
+## 2. IBC — Inference Boundary Check
+Allowed assumptions:
+- 
+
+Forbidden assumptions:
+- 
+
+Information the model must not invent:
+- 
+
+---
+
+## 3. KFG — Output Structure
+Required format:
+-
+
+---
+
+
+---
+
+## 4. QV — Quality Validation
+Checklist:
+- Completeness:
+- Adherence to constraints:
+- Absence of hallucinations:
+- Internal coherence:
+- Compliance with format:
+
+---
+
+## 5. RAG (optional)
+External context or documents:
+- 
+
+---
+
+## 6. Final Instruction
+Operational instruction to the model:
+- 
