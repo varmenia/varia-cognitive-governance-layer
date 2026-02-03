@@ -1,0 +1,44 @@
+# Templates CGL
+
+Questa cartella contiene i template ufficiali del CGL (Cognitive Governance Layer).  
+Ogni template è disponibile in due versioni:
+
+- **Standard** — include la struttura completa del framework.
+- **Compilabile** — versione ridotta con campi da riempire.
+
+## Struttura
+templates/ it/ cgl-prompt-template.md cgl-prompt-template-fillable.md en/ cgl-prompt-template.md cgl-prompt-template-fillable.m
+
+
+## Uso
+
+1. Scegli la lingua.
+2. Scegli il formato (standard o compilabile).
+3. Copia il template nel tuo prompt.
+4. Compila le sezioni richieste.
+
+
+English
+
+# CGL Templates
+
+This folder contains the official templates for the CGL (Cognitive Governance Layer).  
+Each template is available in two formats:
+
+- **Standard** — full structure of the framework.  
+- **Fillable** — reduced version with fields to complete.
+
+## Structure
+templates/ it/ cgl-prompt-template.md cgl-prompt-template-fillable.md en/ cgl-prompt-template.md cgl-prompt-template-fillable.md
+
+## How to use
+
+1. Choose the language.  
+2. Choose the format (standard or fillable).  
+3. Copy the template into your prompt.  
+4. Fill in the required sections.
+
+
+
+
+
