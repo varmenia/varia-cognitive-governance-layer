@@ -1,4 +1,5 @@
 # 🌿 Cognitive Governance Layer (CGL)  
+<link rel="stylesheet" href="assets/custom.css">
 ### *A framework shaped around my way of thinking*  
 ### *Un framework modellato sul mio modo di pensare*
 
