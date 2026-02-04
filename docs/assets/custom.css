@@ -1,38 +1,111 @@
-/* --- Background: deep green gradient --- */
+/* ================================
+   SFONDO GLOBALE CON PATTERN
+   ================================ */
+
 body {
-  background: linear-gradient(180deg, #0f2f24 0%, #1b4638 40%, #245c4a 100%);
-  color: #f2f0f3; /* testo chiaro ma non bianco */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  line-height: 1.7;
-  padding: 20px;
+  background: url("assets/pattern.png") repeat;
+  background-size: 400px;
+  margin: 0;
+  padding: 0;
 }
 
-/* --- Titles: soft lilac powder --- */
-h1, h2, h3 {
-  color: #c8b7d8; /* lilla polvere */
-  font-weight: 600;
-  margin-top: 1.4em;
+/* Rende trasparenti i contenitori Docsify
+   così il pattern resta visibile */
+#app,
+.markdown-section,
+.sidebar {
+  background: transparent !important;
 }
 
-/* --- Links: lilac accent --- */
-a {
-  color: #d6c4e8;
-  text-decoration: none;
+/* ================================
+   TIPOGRAFIA E COLORI (OPZIONALE)
+   ================================ */
+
+/* Colore dei titoli */
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3,
+.markdown-section h4,
+.markdown-section h5,
+.markdown-section h6 {
+  color: #4b2e83; /* lilla elegante */
 }
 
-a:hover {
-  text-decoration: underline;
+/* Colore dei link */
+.markdown-section a {
+  color: #4b2e83;
 }
 
-/* --- Code blocks: soft green-grey box --- */
-code {
-  background: rgba(255, 255, 255, 0.08);
-  padding: 3px 6px;
-  border-radius: 4px;
-  color: #f7f4fa;
+/* Hover dei link */
+.markdown-section a:hover {
+  color: #6a3fb0;
 }
 
-/* --- Improve spacing for readability --- */
-p {
-  margin-bottom: 1.2em;
+/* ================================
+   SIDEBAR
+   ================================ */
+
+.sidebar {
+  padding-top: 20px;
+  border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+/* Link della sidebar */
+.sidebar a {
+  color: #333;
+}
+
+.sidebar a:hover {
+  color: #4b2e83;
+}
+
+/* Titolo in alto */
+.app-name-link {
+  color: #4b2e83 !important;
+}
+
+/* ================================
+   CONTENUTO
+   ================================ */
+
+.markdown-section {
+  padding: 40px;
+  line-height: 1.6;
+}
+
+/* Tabelle più eleganti */
+.markdown-section table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.markdown-section table th,
+.markdown-section table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.markdown-section table th {
+  background: rgba(255,255,255,0.6);
+  font-weight: bold;
+}
+
+/* ================================
+   CODE BLOCKS
+   ================================ */
+
+.markdown-section pre code {
+  background: rgba(255,255,255,0.7);
+  padding: 10px;
+  border-radius: 6px;
+  display: block;
+}
+
+/* ================================
+   LISTE
+   ================================ */
+
+.markdown-section ul,
+.markdown-section ol {
+  margin-left: 20px;
 }
