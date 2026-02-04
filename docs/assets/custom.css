@@ -3,6 +3,9 @@
    ================================ */
 
 body {
+   body {
+  border: 10px solid red !important;
+}
   background: url("assets/pattern.png") repeat;
   background-size: 400px;
   margin: 0;
